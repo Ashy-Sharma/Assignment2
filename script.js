@@ -5,7 +5,7 @@ function move(){
     var top;
     var width;
     left = Math.random() * 300 ;
-    top = Math.random() * 300 ;
+    top = Math.random() * 100 ;
     width = (Math.random() * 500) + 50 ;
     document.getElementById("box").style.width = width + "px";
     document.getElementById("box").style.left = left + "px";
