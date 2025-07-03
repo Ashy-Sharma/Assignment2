@@ -4,11 +4,12 @@ function move(){
     var left;
     var top;
     var width;
-    left = Math.random() * 300 ;
-    top = Math.random() * 300 ;
+    left = Math.random() * 100 ;
+    top = Math.random() * 100 ;
     width = (Math.random() * 500) + 50 ;
     document.getElementById("box").style.width = width + "px";
-    document.getElementById("box").style.left = left + "px";
+    document.getElementById("box").style.height = width + "px";
+    document.getElementById("box").style.left = left + "vh";
     document.getElementById("box").style.top = top + "px";
     document.getElementById("box").style.display = "block";
     start = new Date().getTime();
