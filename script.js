@@ -1,5 +1,5 @@
 var start = new Date().getTime();
-var highScore = 1000000 ;
+// var highScore = 1000000 ;
 function move(){
 
     var width = (Math.random() * 10) + 5 ;
@@ -29,9 +29,9 @@ document.getElementById("box").onclick = function(){
     var end = new Date().getTime();
     var timeTaken = (end - start)/1000;
     alert( "Reaction Time : " + timeTaken);
-    if(timeTaken < highScore){
-        highScore = timeTaken;
-    }
-    document.getElementById("highScore").innerHTML = "High Score : " + highScore + " seconds" ;
+    // if(timeTaken < highScore){
+    //     highScore = timeTaken;
+    // }
+    // document.getElementById("highScore").innerHTML = "High Score : " + highScore + " seconds" ;
     move();
 }
