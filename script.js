@@ -28,7 +28,7 @@ document.getElementById("box").onclick = function(){
     this.style.display = "none";
     var end = new Date().getTime();
     var timeTaken = (end - start)/1000;
-    alert( "Reaction Time : " + timeTaken);
+    alert( "Reaction Time : " + timeTaken + "seconds");
     // if(timeTaken < highScore){
     //     highScore = timeTaken;
     // }
